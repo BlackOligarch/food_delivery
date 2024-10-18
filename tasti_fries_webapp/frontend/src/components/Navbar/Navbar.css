@@ -9,7 +9,8 @@
 }
 
 .navbar .logo{
-    width: 350px
+    width: 350px;
+    margin-left: -20px;
 }
 
 .navbar-menu{
@@ -18,12 +19,14 @@
     gap: 20px;
     color: #49557e;
     font-size: 18px;
+    margin-left: -40px;
 }
 
 .navbar-right{
     display: flex;
     align-items: center;
     gap: 40px;
+    margin-left: 10px;
 }
 
 .navbar button{
@@ -35,7 +38,7 @@
     border-radius: 50px;
     cursor: pointer;
     transition: 0.3s;
-
+    margin-right: 7px;
 }
 
 .navbar button:hover{
