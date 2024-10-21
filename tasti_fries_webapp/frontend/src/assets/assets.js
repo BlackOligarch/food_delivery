@@ -92,7 +92,7 @@ export const menu_list = [
         menu_image: menu_2
     },
     {
-        menu_name: "Deserts",
+        menu_name: "Rice",
         menu_image: menu_3
     },
     {
@@ -100,7 +100,7 @@ export const menu_list = [
         menu_image: menu_4
     },
     {
-        menu_name: "Cake",
+        menu_name: "Fries",
         menu_image: menu_5
     },
     {
@@ -176,32 +176,32 @@ export const food_list = [
         category: "Rolls"
     }, {
         _id: "9",
-        name: "Ripple Ice Cream",
+        name: "Assorted Jollof",
         image: food_9,
-        price: 14,
+        price: 85,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        category: "Rice"
     }, {
         _id: "10",
-        name: "Fruit Ice Cream",
+        name: "Waakye",
         image: food_10,
-        price: 22,
+        price: 75,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        category: "Rice"
     }, {
         _id: "11",
-        name: "Jar Ice Cream",
+        name: "Fried Rice",
         image: food_11,
-        price: 10,
+        price: 80,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        category: "Rice"
     }, {
         _id: "12",
-        name: "Vanilla Ice Cream",
+        name: "Anwarmo",
         image: food_12,
-        price: 12,
+        price: 80,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        category: "Rice"
     },
     {
         _id: "13",
@@ -234,32 +234,32 @@ export const food_list = [
         category: "Sandwich"
     }, {
         _id: "17",
-        name: "Cup Cake",
+        name: "French Fries Only",
         image: food_17,
         price: 35,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        category: "Fries"
     }, {
         _id: "18",
-        name: "Vegan Cake",
+        name: "Chicken Nuggets",
         image: food_18,
-        price: 45,
+        price: 85,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        category: "Fries"
     }, {
         _id: "19",
-        name: "Butterscotch Cake",
+        name: "Waffle Fries",
         image: food_19,
         price: 140,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        category: "Fries"
     }, {
         _id: "30",
-        name: "Sliced Cake",
+        name: "Burger Fries",
         image: food_20,
-        price: 45,
+        price: 120,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        category: "Fries"
     }, {
         _id: "21",
         name: "Garlic Mushroom ",
