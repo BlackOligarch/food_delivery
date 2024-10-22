@@ -55,6 +55,7 @@ These processes are fully frontend-based to demonstrate the app's functionality 
 
 ## File Structure
 The project follows a structured folder hierarchy to keep the code organized:
+```
 src/
 |-- assets/              # Images, icons, and static assets
 |-- components/          # Reusable React components (e.g., Navbar, Footer)
@@ -63,17 +64,18 @@ src/
 |-- App.js               # Main App component
 |-- main.jsx             # Entry point for the application
 |-- index.html           # HTML template
+```
 
 ## Features in Detail
 ### Files
-![Navbar](./frontend/src/components/Navbar/)
+[Navbar](./frontend/src/components/Navbar/)
 The navbar includes the logo, links for different sections like "Home", "Menu", and "Contact Us", and a search icon along with a cart icon. The active page is highlighted based on the current state.
 
-![Cart](./frontend/src/pages/Cart/)
+[Cart](./frontend/src/pages/Cart/)
 Cart and Checkout
 The cart displays added items with their quantities, total prices, and a "Remove" option. Users can proceed to the checkout, and when payment is simulated, a checkout pop-up appears using SweetAlert.
 
-Menu Section
+[Menu Section](./frontend/src/components/ExploreMenu)
 The menu features a horizontally scrollable category view where users can explore different food options.
 
 ### Packages
