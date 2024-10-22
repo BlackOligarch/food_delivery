@@ -25,13 +25,13 @@ Tasti Fries is a sleek and interactive web application designed for a restaurant
 * Responsive Design: Mobile-friendly design that looks great on all devices.
 
 ## Technologies Used
-[React](https://react.dev/): For building the user interface and managing application state.  
-[Vite](https://vite.dev): Development tool for a faster and leaner build setup compared to traditional bundlers.  
-[HTML5](https://html.spec.whatwg.org/multipage/) & [CSS3](https://www.w3.org/Style/CSS/Overview.en.html): For structuring and styling the web pages.  
-[JavaScript (ES6+)](https://www.javascript.com/): For interactivity and dynamic content handling.  
-[SweetAlert](https://sweetalert2.github.io/#download): For custom alert modals, especially during payment checkout.  
-[Lottie-react](https://lottiefiles.com/): For rendering animations like the loading cover bowl.  
-[React Router DOM](https://reactrouter.com/en/main): For handling navigation and routing between different pages within the app.  
+* [React](https://react.dev/): For building the user interface and managing application state.  
+* [Vite](https://vite.dev): Development tool for a faster and leaner build setup compared to traditional bundlers.  
+* [HTML5](https://html.spec.whatwg.org/multipage/) & [CSS3](https://www.w3.org/Style/CSS/Overview.en.html): For structuring and styling the web pages.  
+* [JavaScript (ES6+)](https://www.javascript.com/): For interactivity and dynamic content handling.  
+* [SweetAlert](https://sweetalert2.github.io/#download): For custom alert modals, especially during payment checkout.  
+* [Lottie-react](https://lottiefiles.com/): For rendering animations like the loading cover bowl.  
+* [React Router DOM](https://reactrouter.com/en/main): For handling navigation and routing between different pages within the app.  
 
 ## Installation and Setup
 
