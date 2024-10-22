@@ -1,4 +1,4 @@
-**Tasti Fries 🍟**
+# **Tasti Fries 🍟**
 A Taste Heaven
 
 ## Author:
@@ -14,6 +14,7 @@ Tasti Fries is a sleek and interactive web application designed for a restaurant
 ![Menu View](<Screenshot (192).png>)
 
 ![Cart View](<Screenshot (193).png>)
+
 
 ## Features
 * User Sign-in: Allows users to log a mock API.
@@ -40,7 +41,7 @@ npm or yarn package manager
 
 ### Local Setup
  shell
-git clone https://github.com/your-username/tasti-fries.git  # clone repo
+git clone https://github.com/BlackOligarch/food_delivery.git  # clone repo
 cd food-delivery  # navigate to directory
 npm install # install all dependencies (replace with yarn where necessary)
 npm run dev # run the application on localhost
