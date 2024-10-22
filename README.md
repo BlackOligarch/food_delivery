@@ -1,7 +1,7 @@
 # **Tasti Fries 🍟 - "A Taste of Heaven"**
 
-## Author:
-[Godfred Hammond](linkedin.com/in/godfredhammond/)
+## Author: [Godfred Hammond](linkedin.com/in/godfredhammond/)
+
 
 ## What is this?
 Tasti Fries is a sleek and interactive web application designed for a restaurant, allowing customers to place online orders with ease. This project focuses on providing an intuitive and visually appealing frontend, simulating backend processes like user sign-in and payment checkout via a mock API.
@@ -23,6 +23,7 @@ Tasti Fries is a sleek and interactive web application designed for a restaurant
 * Lottie Animation: A restaurant food cover bowl animation (via Lottie) is displayed while the page is loading, enhancing user experience before the homepage is fully rendered.
 * Responsive Design: Mobile-friendly design that looks great on all devices.
 
+
 ## Technologies Used
 * [React](https://react.dev/): For building the user interface and managing application state.  
 * [Vite](https://vite.dev): Development tool for a faster and leaner build setup compared to traditional bundlers.  
@@ -39,12 +40,14 @@ Tasti Fries is a sleek and interactive web application designed for a restaurant
 npm or yarn package manager
 
 ### Local Setup
- shell
+```
+~ shell ~
+
 git clone https://github.com/BlackOligarch/food_delivery.git  # clone repo
 cd food-delivery  # navigate to directory
 npm install # install all dependencies (replace with yarn where necessary)
 npm run dev # run the application on localhost
-
+```
 ## Mock API
 The mock API simulates key backend processes such as:
 
@@ -67,14 +70,14 @@ src/
 
 ## Features in Detail
 ### Files
-[Navbar](./frontend/src/components/Navbar/)
+* [Navbar](./frontend/src/components/Navbar/)
 The navbar includes the logo, links for different sections like "Home", "Menu", and "Contact Us", and a search icon along with a cart icon. The active page is highlighted based on the current state.
 
-[Cart](./frontend/src/pages/Cart/)
+* [Cart](./frontend/src/pages/Cart/)
 Cart and Checkout
 The cart displays added items with their quantities, total prices, and a "Remove" option. Users can proceed to the checkout, and when payment is simulated, a checkout pop-up appears using SweetAlert.
 
-[Menu Section](./frontend/src/components/ExploreMenu)
+* [Menu Section](./frontend/src/components/ExploreMenu)
 The menu features a horizontally scrollable category view where users can explore different food options.
 
 ### Packages
@@ -83,7 +86,4 @@ When the page is loading, a Lottie animation of a restaurant food cover bowl app
 
 ## Contributions
 Feel free to fork the repository and submit pull requests to suggest improvements or add features.
-For any queries, feel free to reach out via email.
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+For any queries, feel free to reach out via [Linkedin](linkedin.com/in/godfredhammond/).
