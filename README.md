@@ -36,8 +36,8 @@ Tasti Fries is a sleek and interactive web application designed for a restaurant
 ## Installation and Setup
 
 ### Prerequisites
-(Node.js)[https://nodejs.org/en] (v14+ recommended)
-npm or yarn package manager
+* [Node.js](https://nodejs.org/en) (v14+ recommended)
+* npm or yarn package manager
 
 ### Local Setup
 ```
@@ -47,7 +47,8 @@ git clone https://github.com/BlackOligarch/food_delivery.git  # clone repo
 cd food-delivery  # navigate to directory
 npm install # install all dependencies (replace with yarn where necessary)
 npm run dev # run the application on localhost
-```
+```  
+
 ## Mock API
 The mock API simulates key backend processes such as:
 
