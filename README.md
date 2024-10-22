@@ -1,5 +1,4 @@
-# **Tasti Fries 🍟**
-A Taste Heaven
+# **Tasti Fries 🍟 - "A Taste of Heaven"**
 
 ## Author:
 [Godfred Hammond](linkedin.com/in/godfredhammond/)
