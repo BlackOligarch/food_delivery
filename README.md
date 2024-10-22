@@ -54,7 +54,7 @@ The mock API simulates key backend processes such as:
 
 * User authentication (Sign-in)
 * Payment handling (Checkout)
-These processes are fully frontend-based to demonstrate the app's functionality without the need for an actual backend server.
+These processes are fully frontend-based to demonstrate the app's functionality without the need for an actual backend server.  
 
 ## File Structure
 The project follows a structured folder hierarchy to keep the code organized:
@@ -67,8 +67,8 @@ src/
 |-- App.js               # Main App component
 |-- main.jsx             # Entry point for the application
 |-- index.html           # HTML template
-```
-
+```  
+  
 ## Features in Detail
 ### Files
 * [Navbar](./frontend/src/components/Navbar/)
