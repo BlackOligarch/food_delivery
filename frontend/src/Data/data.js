@@ -46,7 +46,7 @@ export const foods = [
 export const users = [
   {
     email: "nana@gmail.com",
-    password: "password",
+    password: "$2a$12$bkbtUNTk6gSLcI5ymTb1neycnuTxvXKBtdcYL2NHaw63oC4OmpLta",
     status:"Active"
   }
 ];

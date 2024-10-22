@@ -32,6 +32,8 @@ Tasti Fries is a sleek and interactive web application designed for a restaurant
 * [SweetAlert](https://sweetalert2.github.io/#download): For custom alert modals, especially during payment checkout.  
 * [Lottie-react](https://lottiefiles.com/): For rendering animations like the loading cover bowl.  
 * [React Router DOM](https://reactrouter.com/en/main): For handling navigation and routing between different pages within the app.  
+* [Bcrypt](https://bcrypt-generator.com/): For hashing passwors through encryption.  
+
 
 ## Installation and Setup
 

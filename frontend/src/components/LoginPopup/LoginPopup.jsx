@@ -1,10 +1,11 @@
 import React, { useState } from "react";
-import Swal from 'sweetalert2'; // Import SweetAlert2
+import Swal from 'sweetalert2';
+import bcrypt from 'bcryptjs'; // Import bcryptjs
 import "./LoginPopup.css";
-import { assets } from "../../assets/assets"; // Adjust path as per your project structure
-import { users } from "../../Data/data"; // Adjust path as per your project structure
+import { assets } from "../../assets/assets";
+import { users } from "../../Data/data";
 
-const LoginPopup = ({ setShowLogin }) => {
+const LoginPopup = ({ setShowLogin, setIsLoggedIn }) => {
   const [currState, setCurrState] = useState("Login");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -12,31 +13,37 @@ const LoginPopup = ({ setShowLogin }) => {
   const handleLogin = async (e) => {
     e.preventDefault();
 
-    // Check if the user exists in the users array
-    const foundUser = users.find(
-      (user) => user.email === email && user.password === password
-    );
+    // Find the user by email
+    const foundUser = users.find((user) => user.email === email);
 
     if (foundUser) {
-      console.log("User found:", foundUser); // Log the found user to the console
+      // Compare the entered password with the hashed password using bcrypt.compare()
+      const isMatch = await bcrypt.compare(password, foundUser.password);
 
-      // Create JSON data
-      const jsonData = {
-        email,
-        status: "active",
-      };
+      if (isMatch) {
+        console.log("Password matches, user found:", foundUser);
 
-      // Show success alert using SweetAlert2
-      await Swal.fire({
-        title: "Success!",
-        text: "Login successful. Welcome back!",
-        icon: "success",
-        confirmButtonText: "OK",
-      });
-      
-      setShowLogin(false); // Close the login popup on successful login
+        // Show success alert using SweetAlert2
+        await Swal.fire({
+          title: "Success!",
+          text: "Login successful. Welcome back!",
+          icon: "success",
+          confirmButtonText: "OK",
+        });
+
+        setIsLoggedIn(true);  // Update login state to true on success
+        setShowLogin(false);  // Close the login popup on successful login
+      } else {
+        // Show error alert using SweetAlert2 if passwords don't match
+        await Swal.fire({
+          title: "Error!",
+          text: "Login failed. Invalid email or password.",
+          icon: "error",
+          confirmButtonText: "Try Again",
+        });
+      }
     } else {
-      // Show error alert using SweetAlert2
+      // Show error alert if no user is found with the provided email
       await Swal.fire({
         title: "Error!",
         text: "Login failed. Invalid email or password.",
