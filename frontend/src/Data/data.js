@@ -47,7 +47,12 @@ export const users = [
   {
     email: "nana@gmail.com",
     password: "$2a$12$bkbtUNTk6gSLcI5ymTb1neycnuTxvXKBtdcYL2NHaw63oC4OmpLta",
-    status:"Active"
+    status:"Active",
+  },
+  {
+    email: "godfred.hammond2018@yahoo.com",
+    password: "$2a$12$bkbtUNTk6gSLcI5ymTb1neycnuTxvXKBtdcYL2NHaw63oC4OmpLta",
+    status:"Active" 
   }
 ];
 
